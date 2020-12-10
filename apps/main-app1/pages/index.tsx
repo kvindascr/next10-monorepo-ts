@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import {NextPage} from 'next';
-import { sum } from '@test/common';
-import { SimpleButton, SumButton, MaterialButton } from '@test/uxui';
+import { sum } from '@test/common/math/Sum';
+import { SimpleButton } from '@test/uxui/button/SimpleButton';
+import { SumButton } from '@test/uxui/button/SumButton';
+import { MaterialButton } from '@test/uxui/button/MaterialButton';
 
 const Home: NextPage = () => {
   return (

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { sum } from '@test/common';
+import { sum } from '@test/common/math/Sum';
 
 export const SumButton: React.FC = (props) => {
     const [count, setCount] = useState<number>(0);
