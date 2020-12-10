@@ -1,0 +1,13 @@
+{
+  "name": "@test/uxui",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@test/common": "*",
+    "@material-ui/core": "^4.11.2"
+  }
+}

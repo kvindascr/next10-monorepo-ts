@@ -6,8 +6,8 @@
   },
   "workspaces": {
     "packages": [
-      "libs/*",
-      "apps/*"
+      "apps/*",
+      "libs/*"
     ]
   },
   "dependencies": {

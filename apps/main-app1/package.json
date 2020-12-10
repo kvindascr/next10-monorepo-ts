@@ -1,5 +1,5 @@
 {
-  "name": "app1",
+  "name": "@test/main-app1",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.0.3"
+    "@test/common": "*",
+    "@test/uxui": "*",
+    "next": "^10.0.3"
   },
   "devDependencies": {
+    "next-transpile-modules": "^6.0.0"
   }
 }
