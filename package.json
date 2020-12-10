@@ -1,0 +1,19 @@
+{
+  "name": "next10-monorepo-ts",
+  "description": "Next10 MonoRepo Typescript",
+  "private": true,
+  "scripts": {
+  },
+  "workspaces": {
+    "packages": [
+      "libs/*",
+      "apps/*"
+    ]
+  },
+  "dependencies": {
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+  }
+}
