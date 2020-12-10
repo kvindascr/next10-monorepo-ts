@@ -9,6 +9,7 @@ Next10 typecript monorepo with the following objectives:
 - Common dependencies shared among all projects defined at the top level.
 
 Implementation with Yarn Workspaces.
+
 This is a proof-of-concept as we currently use pnpm to handle a monorepo, but have problems when deploying on Vercel.
 
    
