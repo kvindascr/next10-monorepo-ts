@@ -12,4 +12,7 @@ Implementation with Yarn Workspaces.
 
 This is a proof-of-concept as we currently use pnpm to handle a monorepo, but have problems when deploying on Vercel.
 
-   
+Improvements to be done:
+
+- Intellisense on sub-module importing.
+
